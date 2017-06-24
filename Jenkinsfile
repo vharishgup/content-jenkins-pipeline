@@ -10,7 +10,7 @@ sh 'jar -cvmf MANIFEST.MF rectangle.jar *.class'
 }
 stage('run') {
 steps {
-sh 'java -jar rectangle.jat 7 9 '
+sh 'java -jar rectangle.jar 7 9 '
 }
 }
 }
